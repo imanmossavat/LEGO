@@ -71,27 +71,6 @@ In more advanced steps, we would like to explore how this LEGO-based environment
 
 
 
-
-
-
-## Approach
-
-1. **Design the DSL**  
-    Create a simple programming language to define LEGO models. It should allow hierarchical abstraction (e.g., define a “wall” and reuse it to build a “house”).
-    
-2. **Generate Training Data**  
-    Use the DSL to produce diverse LEGO tasks, from simple patterns to complex reasoning challenges. Represent these tasks as graphs or sequences for LLMs.
-
-3. **Train and Test LLMs**  
-    Fine-tune LLMs on these structured tasks. Evaluate their performance on:
-    - Following instructions.
-    - Abstracting patterns.
-    - Applying logical rules.
-
-4. **Study Model Behavior**  
-    We follow the methodology of [2].
-
-
 ## References
 
 [1] Bricklayer: An Authentic Introduction to the Functional Programming Language SML [1412.4881](https://arxiv.org/pdf/1412.4881)
